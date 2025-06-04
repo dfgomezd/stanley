@@ -284,9 +284,9 @@ function getCurrentPosition (callback) {
     vec3.z = 99999;
     ray.set(vec3, new THREE.Vector3(0, 0, -1));
 
-    var objs = ray.intersectObjects(objects)
+    var objs = ray.intersectObjects(objects);
     if (objs.length) {
-      pt.z = (objs[0].point.z + Q3D.Config.AR.DH) * app.scene.userData.zScale;
+      pt.z = objs[0].point.z + Q3D.Config.AR.DH * app.scene.userData.zScale;
     }
 
     callback(pt);
