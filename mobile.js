@@ -6,7 +6,7 @@
 Q3D.Config.AR = {
   DH: 1.5,      // device height from ground (in CRS vertical unit)
   FOV: 70,      // device camera's field of view
-  MND: 0        // magnetic North direction (clockwise from upper direction of map, in degrees)
+  MND: 0        // magnetic North direction (counter-clockwise from the map's up direction, in degrees)
 };
 
 var app = Q3D.application,
