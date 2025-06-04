@@ -204,6 +204,7 @@ function startARMode(position) {
 
     Q3D.E("view").classList.add("transparent");
   }).catch(function (error) {
+    stopARMode();             // revert settings if camera stream fails
     alert(error);
   });
 
