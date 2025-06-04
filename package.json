@@ -1,0 +1,17 @@
+{
+  "name": "stanley",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Qgis2threejs.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "jest": "^29.5.0",
+    "jsdom": "^22.1.0"
+  }
+}
